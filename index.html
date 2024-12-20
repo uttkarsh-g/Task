@@ -7,5 +7,38 @@
     <script src="app.js" defer></script>
     <title>Taskly</title>
   </head>
-  <body></body>
+  <body>
+    <div id="wrapper">
+      <div id="main">
+        <h1 id="heading">Focus on <span id="headings">Today</span></h1>
+        <div id="mainContent">
+          <h2 id="today">Today</h2>
+          <p id="quotes">Raise the bar by completing your goals!</p>
+          <div id="progress">
+            <div id="progressbar">
+              <div id="progressupdate"></div>
+            </div>
+            <p class="warning">Please select all goals to continue</p>
+          </div>
+          <form action="" method="get">
+            <div class="goals">
+              <div class="checked"></div>
+              <input type="text" placeholder="Add new goal" class="userData" />
+            </div>
+            <div class="goals">
+              <div class="checked"></div>
+              <input type="text" placeholder="Add new goal" class="userData" />
+            </div>
+            <div class="goals">
+              <div class="checked"></div>
+              <input type="text" placeholder="Add new goal" class="userData" />
+            </div>
+          </form>
+          <div id="btn">
+            <button type="submit" id="submit" disabled>Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
