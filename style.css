@@ -39,12 +39,17 @@ body {
 #headings {
   color: var(--brown);
 }
-#mainContent {
+.mainContent {
   background-color: var(--white);
   border-radius: 15px;
   padding: 10px 20px;
   height: 70vh;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.205);
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #today {
   font-size: 40px;
@@ -131,4 +136,35 @@ form {
 ::placeholder {
   font-size: 17px;
   color: var(--lightgrey);
+}
+
+#celebTitle {
+  color: var(--green);
+  font-size: 22px;
+}
+#cTS {
+  font-size: 30px;
+  color: var(--brown);
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button h3 {
+  color: var(--brown);
+  font-size: 20px;
+}
+#reset {
+  background-color: var(--white);
+  color: var(--green);
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}
+#reset:hover {
+  text-decoration: underline;
 }
