@@ -77,7 +77,7 @@ body {
 }
 #progressupdate {
   height: 100%;
-  width: 33%;
+  /* width: 20px; */
   background-color: var(--green);
   border-radius: 50px;
 }
@@ -93,7 +93,6 @@ body {
   display: block;
 }
 form {
-  overflow-y: scroll;
   height: 35vh;
 }
 .goals {
