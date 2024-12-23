@@ -4,6 +4,18 @@ const error = document.querySelector('.warning');
 const progressBar = document.querySelector('#progressupdate');
 const container = document.querySelector('.mainContent');
 const submit = document.querySelector('#submit');
+let date = document.querySelector('#todayDate');
+let time = document.querySelector('#currentTime');
+
+function dateAndTime() {
+  let todayDate = new Date();
+  date.innerText = todayDate.toLocaleDateString();
+  setInterval(() => {
+    let todayDate = new Date();
+    time.innerText = todayDate.toLocaleTimeString();
+  }, 10);
+}
+dateAndTime();
 submit.setAttribute('disabled', '');
 
 const userInputData = JSON.parse(localStorage.getItem('task')) || {};
