@@ -114,7 +114,7 @@ submit.addEventListener('click', (e) => {
             </h2>
             <div class="button">
               <h3>Set your task again -</h3>
-              <button id="reset">Taskly</button>
+              <button id="reset">QuickGoals</button>
             </div>
           </div>`;
   localStorage.removeItem('task');
