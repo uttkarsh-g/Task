@@ -10,7 +10,7 @@ In today’s fast-paced world, people often feel overwhelmed by long to-do lists
 <br>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8a0f11fd-face-47ca-b652-5d8d92d24bd7" width="900" height="600" /></p>
+<img src="https://github.com/user-attachments/assets/8a0f11fd-face-47ca-b652-5d8d92d24bd7"/></p>
 
 <br>
 <br>
