@@ -4,6 +4,7 @@ const error = document.querySelector('.warning');
 const progressBar = document.querySelector('#progressupdate');
 const container = document.querySelector('.mainContent');
 const submit = document.querySelector('#submit');
+let countComplete = document.querySelector('#countComplete');
 let date = document.querySelector('#todayDate');
 let time = document.querySelector('#currentTime');
 
@@ -20,6 +21,7 @@ submit.setAttribute('disabled', '');
 
 const userInputData = JSON.parse(localStorage.getItem('task')) || {};
 let width = Object.values(userInputData).filter((e) => e.isCompleted).length;
+countComplete.innerText = width;
 progressBar.style.width = `${(width / 3) * 100}%`;
 
 check.forEach((checkBtn) => {
@@ -37,6 +39,7 @@ check.forEach((checkBtn) => {
         (e) => e.isCompleted
       ).length;
       progressBar.style.width = `${(width / 3) * 100}%`;
+      countComplete.innerText = width;
       localStorage.setItem('task', JSON.stringify(userInputData));
     } else {
       error.classList.add('block');
