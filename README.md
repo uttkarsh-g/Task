@@ -28,7 +28,7 @@ Quick Goals is designed for:
 
 ## Quick Goals Link
 
-You can access Quick Goals here: [Quick Goals](uttkarsh-g.github.io/Task)
+You can access Quick Goals here: [Quick Goals](https://uttkarsh-g.github.io/Task)
 
 <br>
 
